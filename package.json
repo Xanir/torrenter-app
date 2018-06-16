@@ -1,0 +1,31 @@
+{
+  "name": "nz-torrenter",
+  "description": "Torrenter",
+  "version": "0.1.1",
+  "homepage": "https://github.com/EnzeyNet/NodeJS-Torrenter",
+  "bugs": {
+    "url": "https://github.com/EnzeyNet/NodeJS-Torrenter/issues"
+  },
+  "author": "Joseph Aspelund (https://github.com/Xanir)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EnzeyNet/NodeJS-Torrenter.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "dependencies": {
+	"express": "4.16.0",
+    "webtorrent": "0.100.0"
+  },
+  "devDependencies": {},
+  "files": [
+    "torrenter.js"
+  ],
+  "main": "torrenter.js",
+  "scripts": {
+	"start": "node torrenter.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC"
+}
